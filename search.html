@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>LOADING...</title>
+</head>
+<body>
+<script>
+function go() {
+  const prm=new URLSearchParams(window.location.search);
+  window.location.href=prm.get("url");
+};
+setInterval(go,100);
+</script>
+<noscript>Javascript is not enabled!</noscript>
+</body>
+</html>
